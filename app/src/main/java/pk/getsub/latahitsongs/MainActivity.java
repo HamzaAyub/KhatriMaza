@@ -68,37 +68,38 @@ public class MainActivity extends AppCompatActivity {
 
 
         //show admob banner ad
-        mAdView = (AdView) findViewById(R.id.adView);
-        mAdView.loadAd(new AdRequest.Builder().build());
-        mAdView.setAdListener(new AdListener() {
 
-            @Override
-            public void onAdClosed() {
-                Log.d(TAG, "onAdClosed:  add Close");
-            }
-
-            @Override
-            public void onAdFailedToLoad(int error) {
-                Log.d(TAG, "onAdFailedToLoad: ");
-                mAdView.setVisibility(View.GONE);
-            }
-
-            @Override
-            public void onAdLeftApplication() {
-                Log.d(TAG, "onAdLeftApplication: ");
-            }
-
-            @Override
-            public void onAdOpened() {
-                Log.d(TAG, "onAdOpened: ");
-            }
-
-            @Override
-            public void onAdLoaded() {
-                Log.d(TAG, "onAdLoaded: ");
-                mAdView.setVisibility(View.VISIBLE);
-            }
-        });
+//        mAdView = (AdView) findViewById(R.id.adView);
+//        mAdView.loadAd(new AdRequest.Builder().build());
+//        mAdView.setAdListener(new AdListener() {
+//
+//            @Override
+//            public void onAdClosed() {
+//                Log.d(TAG, "onAdClosed:  add Close");
+//            }
+//
+//            @Override
+//            public void onAdFailedToLoad(int error) {
+//                Log.d(TAG, "onAdFailedToLoad: ");
+//                mAdView.setVisibility(View.GONE);
+//            }
+//
+//            @Override
+//            public void onAdLeftApplication() {
+//                Log.d(TAG, "onAdLeftApplication: ");
+//            }
+//
+//            @Override
+//            public void onAdOpened() {
+//                Log.d(TAG, "onAdOpened: ");
+//            }
+//
+//            @Override
+//            public void onAdLoaded() {
+//                Log.d(TAG, "onAdLoaded: ");
+//                mAdView.setVisibility(View.VISIBLE);
+//            }
+//        });
         if (!(JsonUtils.isNetworkAvailable(this))) {
             Log.d(TAG, "onCreate: No Internet");
             noInternet("No Internt, Please Connect With A Network.");
@@ -207,37 +208,37 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    @Override
-    public void onStart() {
-        super.onStart();
-        // analytics
- //       GoogleAnalytics.getInstance(this).reportActivityStart(this);
-    }
+//    @Override
+//    public void onStart() {
+//        super.onStart();
+//        // analytics
+// //       GoogleAnalytics.getInstance(this).reportActivityStart(this);
+//    }
 
-    @Override
-    public void onStop() {
-        super.onStop();
-        // analytics
-  //      GoogleAnalytics.getInstance(this).reportActivityStop(this);
-    }
-
-    @Override
-    protected void onPause() {
-        mAdView.pause();
-        super.onPause();
-    }
-
-    @Override
-    protected void onResume() {
-        super.onResume();
-        mAdView.resume();
-    }
-
-    @Override
-    protected void onDestroy() {
-        mAdView.destroy();
-        super.onDestroy();
-    }
+//    @Override
+//    public void onStop() {
+//        super.onStop();
+//        // analytics
+//  //      GoogleAnalytics.getInstance(this).reportActivityStop(this);
+//    }
+//
+//    @Override
+//    protected void onPause() {
+//        mAdView.pause();
+//        super.onPause();
+//    }
+//
+//    @Override
+//    protected void onResume() {
+//        super.onResume();
+//        mAdView.resume();
+//    }
+//
+//    @Override
+//    protected void onDestroy() {
+//        mAdView.destroy();
+//        super.onDestroy();
+//    }
     @Override
     public boolean onKeyDown(int keyCode, KeyEvent event) {
         // TODO Auto-generated method stub
