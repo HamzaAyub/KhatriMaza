@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="pk.getsub.latahitsongs">
+    package="pk.getsub.netflox">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -14,14 +14,14 @@
     <uses-permission android:name="android.permission.WAKE_LOCK" />
 
     <application
-        android:name=".analytics.Analytics"
+        android:name="pk.getsub.netflox.analytics.Analytics"
         android:allowBackup="true"
         android:hardwareAccelerated="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".ActivitySplash"
+            android:name="pk.getsub.netflox.ActivitySplash"
             android:label="@string/app_name"
             android:screenOrientation="portrait">
 
@@ -34,7 +34,7 @@
             -->
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name="pk.getsub.netflox.MainActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait">
 
@@ -52,46 +52,46 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".activities.ActivityVideoByCategory"
+            android:name="pk.getsub.netflox.activities.ActivityVideoByCategory"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activities.ActivityVideoDetail"
+            android:name="pk.getsub.netflox.activities.ActivityVideoDetail"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activities.ActivityVideoLatest"
+            android:name="pk.getsub.netflox.activities.ActivityVideoLatest"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activities.ActivityVideoCatList"
+            android:name="pk.getsub.netflox.activities.ActivityVideoCatList"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activities.ActivityVideoDetailNew"
+            android:name="pk.getsub.netflox.activities.ActivityVideoDetailNew"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activities.ActivityVideoSliderList"
+            android:name="pk.getsub.netflox.activities.ActivityVideoSliderList"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".videoplay.VideoPlayerActivity"
+            android:name="pk.getsub.netflox.videoplay.VideoPlayerActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/app_name" />
         <activity
-            android:name=".videoplay.YoutubePlay"
+            android:name="pk.getsub.netflox.videoplay.YoutubePlay"
             android:label="@string/app_name"
             android:screenOrientation="landscape" />
         <activity
-            android:name=".preferences.SettingsActivity"
+            android:name="pk.getsub.netflox.preferences.SettingsActivity"
             android:label="@string/title_activity_settings"
-            android:parentActivityName=".MainActivity"
+            android:parentActivityName="pk.getsub.netflox.MainActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.MyTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="pk.getsub.latahitsongs.MainActivity" />
+                android:value="pk.getsub.netflox.MainActivity" />
         </activity>
 
         <!-- admob -->
@@ -136,8 +136,8 @@
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
         -->
 
-        <activity android:name=".search.SearchPlayActivity" />
-        <activity android:name=".search.SearchListActivity"></activity>
+        <activity android:name="pk.getsub.netflox.search.SearchPlayActivity" />
+        <activity android:name="pk.getsub.netflox.search.SearchListActivity"></activity>
     </application>
 
 </manifest>

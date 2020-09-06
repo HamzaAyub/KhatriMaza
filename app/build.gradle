@@ -5,7 +5,7 @@ android {
     buildToolsVersion '27.0.3'
 
     defaultConfig {
-        applicationId 'pk.getsub.latahitsongs'
+        applicationId 'pk.getsub.netflox'
 
         /* // TODO: Please update the Google Project number and OneSignal Id below to yours.
         manifestPlaceholders = [manifestApplicationId          : "${applicationId}",

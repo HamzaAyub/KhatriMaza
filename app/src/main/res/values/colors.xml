@@ -11,8 +11,8 @@
     <!--<color name="ColorAccent">#FF4081</color>-->
     <!--<color name="colorLightBlue">#80add7</color>-->
 
-    <color name="ColorPrimary">#607D8B</color>
-    <color name="ColorPrimaryDark">#455A64</color>
+    <color name="ColorPrimary">#E91E63</color>
+    <color name="ColorPrimaryDark">#C2185B</color>
     <color name="ColorAccent">#FF4081</color>
     <color name="colorLightBlue">#80add7</color>
 
@@ -41,7 +41,7 @@
     <!--<color name="dot_selected">#FF9900</color> app color-->
 
     <!--<color name="dot_selected">#08bc9f</color>-->
-    <color name="dot_selected">#336699</color>
+    <color name="dot_selected">#ffffff</color>
     <color name="non_dot_selected">#000000</color>
     <color name="more_btn_bg">#000000</color>
     <color name="home_bg">#80111113</color>
@@ -51,7 +51,7 @@
     <!--<color name="card_bg">#232227</color>   app color-->
 
     <!--<color name="card_bg">#08bc9f</color>-->
-    <color name="card_bg">#607D8B</color>
+    <color name="card_bg">#C2185B</color>
     <color name="top_bg">#111113</color>
     <color name="drawer_bg">#686A67</color>
     <color name="drawer_selected">#232227</color>

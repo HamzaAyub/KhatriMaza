@@ -1,7 +1,7 @@
 <resources>
 
     <!--application name-->
-    <string name="app_name">Lata Hit Songs</string>
+    <string name="app_name">NetFlox</string>
 
     <!-- Tab name -->
     <string name="tab1">New Release</string>
@@ -25,8 +25,8 @@
 
 
     <!--Real Admob Ids-->
-    <string name="admob_banner_id">ca-app-pub-2237214220660819/5482908463</string>
-    <string name="admob_interstitial_id">ca-app-pub-2237214220660819/9777376692</string>
+    <string name="admob_banner_id">ca-app-pub-7539748110423863/6344673699</string>
+    <string name="admob_interstitial_id">ca-app-pub-7539748110423863/6121312410</string>
 
 
 <!--Test Add Mob IDS-->
@@ -42,7 +42,7 @@
     <string name="admob_off">2</string>
 
     <!-- youtube -->
-    <string name="youtube_api_key">AIzaSyC6ML892sHXPqGuz2BDRS2J8dUcFEldszo</string>
+    <string name="youtube_api_key">AIzaSyBg9BZ2oW0dW83kj_w6pAdytAPgJfTpea4</string>
     <string name="error_player">There was an error initializing the YouTubePlayer (%1$s)</string>
 
     <string name="more_app">https:/</string>
