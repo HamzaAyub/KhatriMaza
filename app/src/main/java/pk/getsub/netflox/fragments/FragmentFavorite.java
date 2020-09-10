@@ -14,8 +14,11 @@ import pk.getsub.netflox.utilities.DatabaseHandler.DatabaseManager;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.support.v4.view.MenuItemCompat;
+//import androidx.core.app.Fragment;
+import androidx.appcompat.widget.SearchView;
+import androidx.core.view.MenuItemCompat;
+import androidx.fragment.app.Fragment;
+
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -96,7 +99,7 @@ public class FragmentFavorite extends Fragment {
 
 
     public void onDestroyView() {
-
+        super.onDestroyView();
         //Log.e("OnDestroy", "called");
         if (!dbManager.isDatabaseClosed())
             dbManager.closeDatabase();
@@ -181,7 +184,7 @@ public class FragmentFavorite extends Fragment {
         super.onCreateOptionsMenu(menu, inflater);
         inflater.inflate(R.menu.search, menu);
 
-        final android.support.v7.widget.SearchView searchView = (android.support.v7.widget.SearchView)
+        final SearchView searchView = (SearchView)
                 MenuItemCompat.getActionView(menu.findItem(R.id.search));
 
         final MenuItem searchMenuItem = menu.findItem(R.id.search);
@@ -197,7 +200,7 @@ public class FragmentFavorite extends Fragment {
             }
         });
 
-        searchView.setOnQueryTextListener(new android.support.v7.widget.SearchView.OnQueryTextListener() {
+        searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
             @Override
             public boolean onQueryTextChange(String newText) {
 

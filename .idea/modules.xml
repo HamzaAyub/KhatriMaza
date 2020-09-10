@@ -3,9 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lata.iml" filepath="$PROJECT_DIR$/lata.iml" />
       <module fileurl="file://$PROJECT_DIR$/netflox.iml" filepath="$PROJECT_DIR$/netflox.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/netflox-app.iml" filepath="$PROJECT_DIR$/app/netflox-app.iml" />
     </modules>
   </component>
 </project>

@@ -1,7 +1,9 @@
 package pk.getsub.netflox.search;
 
-import android.support.v7.app.AppCompatActivity;
+//import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import pk.getsub.netflox.R;
 

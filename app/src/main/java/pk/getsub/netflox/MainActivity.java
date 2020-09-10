@@ -7,14 +7,14 @@ import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
-import android.support.design.widget.NavigationView;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentTransaction;
-import android.support.v4.view.GravityCompat;
-import android.support.v4.widget.DrawerLayout;
-import android.support.v7.app.AlertDialog;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
+//import android.support.design.widget.NavigationView;
+//import androidx.core.app.FragmentManager;
+//import androidx.core.app.FragmentTransaction;
+//import androidx.core.view.GravityCompat;
+//import androidx.core.widget.DrawerLayout;
+//import android.support.v7.app.AlertDialog;
+//import android.support.v7.app.AppCompatActivity;
+//import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.Menu;
@@ -24,9 +24,18 @@ import android.widget.Button;
 import android.widget.EditText;
 
 
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+import androidx.core.view.GravityCompat;
+import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
+
 import com.google.android.gms.ads.AdView;/*
 import com.google.android.gms.analytics.GoogleAnalytics;
 import com.appstock.newhindisongs.analytics.Analytics;*/
+import com.google.android.material.navigation.NavigationView;
 
 import pk.getsub.netflox.fragments.HomeFragment;
 import pk.getsub.netflox.json.JsonUtils;

@@ -4,7 +4,9 @@ package pk.getsub.netflox.json;
 import android.content.Context;
 import android.util.AttributeSet;
 
-public class SquareImageView extends android.support.v7.widget.AppCompatImageView
+import androidx.appcompat.widget.AppCompatImageView;
+
+public class SquareImageView extends AppCompatImageView
 {
 
     public SquareImageView(Context context)

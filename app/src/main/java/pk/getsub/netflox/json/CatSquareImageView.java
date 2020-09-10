@@ -4,7 +4,9 @@ package pk.getsub.netflox.json;
 import android.content.Context;
 import android.util.AttributeSet;
 
-public class CatSquareImageView extends android.support.v7.widget.AppCompatImageView
+import androidx.appcompat.widget.AppCompatImageView;
+
+public class CatSquareImageView extends AppCompatImageView
 {
 
     public CatSquareImageView(Context context)
