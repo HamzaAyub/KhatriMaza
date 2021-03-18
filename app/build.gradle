@@ -5,7 +5,7 @@ android {
     buildToolsVersion '29.0.2'
 
     defaultConfig {
-        applicationId 'pk.getsub.netflox'
+        applicationId 'fun.romancemania.khatri'
 
         /* // TODO: Please update the Google Project number and OneSignal Id below to yours.
         manifestPlaceholders = [manifestApplicationId          : "${applicationId}",
@@ -14,7 +14,7 @@ android {
 
         minSdkVersion 15
         targetSdkVersion 29
-        versionCode 6
+        versionCode 1
         versionName '1.0'
         multiDexEnabled true
     }

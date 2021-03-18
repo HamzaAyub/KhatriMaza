@@ -1,7 +1,7 @@
 <resources>
 
     <!--application name-->
-    <string name="app_name">NetFlox</string>
+    <string name="app_name">Khatri Movies</string>
 
     <!-- Tab name -->
     <string name="tab1">New Release</string>
@@ -23,15 +23,14 @@
     <string name="title_app_policy">Privacy Policy</string>
 
 
-
     <!--Real Admob Ids-->
-    <string name="admob_banner_id">ca-app-pub-7539748110423863/6344673699</string>
-    <string name="admob_interstitial_id">ca-app-pub-7539748110423863/6121312410</string>
+    <!--    <string name="admob_banner_id">ca-app-pub-6536289728630034/1425415080</string>-->
+    <!--    <string name="admob_interstitial_id">ca-app-pub-6536289728630034/7607680054</string>-->
 
 
-<!--Test Add Mob IDS-->
-    <!--<string name="admob_banner_id">ca-app-pub-3940256099942544/6300978111</string>-->
-    <!--<string name="admob_interstitial_id">ca-app-pub-3940256099942544/1033173712</string>-->
+    <!--Test Add Mob IDS-->
+    <string name="admob_banner_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="admob_interstitial_id">ca-app-pub-3940256099942544/1033173712</string>
 
 
     <!-- Set to @string/admob_off to disable admob and to admob_on to enable admob -->

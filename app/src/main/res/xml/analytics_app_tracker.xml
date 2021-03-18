@@ -11,7 +11,7 @@
     <integer name="ga_sessionTimeout">-1</integer>
 
     <screenName name="com.getsub.newsongs.activities.MainActivity">Main Menu</screenName>
-    <screenName name="pk.getsub.netflox.activities.ActivityVideoByCategory">Video List</screenName>
+    <screenName name="fun.romancemania.khatri.activities.ActivityVideoByCategory">Video List</screenName>
     <screenName name="com.getsub.newsongs.activities.ActivityDetailVideo">Video Detail</screenName>
 
 </resources>
